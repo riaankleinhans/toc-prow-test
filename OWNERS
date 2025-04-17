@@ -1,0 +1,11 @@
+# List of usernames who may use /lgtm
+reviewers:
+  - riaankleinhans
+  - mrbobbytables
+  - angellk
+
+# List of usernames who may use /approve
+approvers:
+  - riaankleinhans
+  - mrbobbytables
+  - angellk

@@ -11,4 +11,4 @@ jobs:
       - uses: ./
         with:
           jobs: lgtm
-          github-token: '${{ secrets.GITHUB_TOKEN }}'
+          github-token: '${{ secrets.PROW_TOKEN }}'

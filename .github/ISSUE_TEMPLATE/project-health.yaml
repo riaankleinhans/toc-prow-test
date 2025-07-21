@@ -51,16 +51,14 @@ body:
     description: Please provide any additional information to assist the TOC in reaching out to the project to understand these concerns better.
   validations:
     required: false
-- type: markdown
+- type: textarea
+  id: archiving-checklist
   attributes:
-    value: |
-      ---
-      ## Archiving Checklist (If project is determined for archival)
-
+    label: Archiving Checklist (If project is determined for archival)
+    description: |
       Once a project has been identified as unhealthy and a decision has been made to archive it, the following steps should be completed.
       When the archiving process is initiated add the `archive` label and assign: caniszczyk, mrbobbytables, idvoretskyi, jeefy, castrojo
-
-      ### Archiving Checklist
+    value: |
       - [ ] TOC vote to archive passed
       - [ ] Move project (logo) to archived in the [artwork repo](https://github.com/cncf/artwork)
       - [ ] Move project to archived on [landscape](https://github.com/cncf/landscape)
@@ -76,3 +74,5 @@ body:
       - [ ] Archive DevStats data (open issue in [devstats repo](https://github.com/cncf/devstats/issues))
       - [ ] Archive project in LFX Insights (move to archive in PCC)
       - [ ] Remove from [CLOMonitor data](https://raw.githubusercontent.com/cncf/clomonitor/main/data/cncf.yaml)
+  validations:
+    required: false

@@ -45,20 +45,14 @@ body:
   validations:
     required: false
 - type: textarea
-  id: addt-info
-  attributes:
-    label: Additional Information
-    description: Please provide any additional information to assist the TOC in reaching out to the project to understand these concerns better.
-  validations:
-    required: false
-- type: textarea
   id: archiving-checklist
   attributes:
     label: Archiving Checklist (If project is determined for archival)
-    description: |
+    value: |
       Once a project has been identified as unhealthy and a decision has been made to archive it, the following steps should be completed.
       When the archiving process is initiated add the `archive` label and assign: caniszczyk, mrbobbytables, idvoretskyi, jeefy, castrojo
-    value: |
+
+      ### Archiving Checklist
       - [ ] TOC vote to archive passed
       - [ ] Move project (logo) to archived in the [artwork repo](https://github.com/cncf/artwork)
       - [ ] Move project to archived on [landscape](https://github.com/cncf/landscape)
